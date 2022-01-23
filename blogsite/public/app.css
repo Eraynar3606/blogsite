@@ -1,0 +1,50 @@
+
+.nav-container{
+
+background-color: #d1d1e0;
+padding: .6rem;
+
+}
+.list-text{
+
+    color:	 #0044cc ;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.list-text:hover{
+
+    color: red;
+   border-bottom: 1px solid red;
+}
+.activee{
+    color: red;
+   border-bottom: 1px solid red; 
+}
+.card-body{
+
+    border: 1px solid black;
+}
+@media only screen and (max-width: 739px ) {
+    .card-text {
+      margin-top: .5rem !important;
+    }
+  }
+.body{
+    background-color: #d1d1e0 !important;
+}
+  
+.footer{
+
+    background-color: #d1d1e0 !important;
+    position: relative !important;
+    bottom: 0% !important;
+
+
+}
+.detail-img{
+
+    width: 100%;
+    height: 50%;
+}
